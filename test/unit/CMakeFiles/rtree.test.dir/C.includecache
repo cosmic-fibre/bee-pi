@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/src/lib/salad/rtree.c
+rtree.h
+/home/rifto/bee/src/lib/salad/rtree.h
+string.h
+-
+assert.h
+-
+
+/home/rifto/bee/src/lib/salad/rtree.h
+stddef.h
+-
+stdbool.h
+-
+

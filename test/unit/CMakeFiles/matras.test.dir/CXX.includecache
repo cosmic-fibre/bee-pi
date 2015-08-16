@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/test/unit/matras.cc
+small/matras.h
+/home/rifto/bee/test/unit/small/matras.h
+set
+-
+vector
+-
+assert.h
+-
+stdlib.h
+-
+stdint.h
+-
+stddef.h
+-
+iostream
+-
+
+src/lib/small/matras.h
+assert.h
+-
+stdint.h
+-
+

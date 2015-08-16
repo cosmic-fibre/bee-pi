@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/test/unit/guava.c
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+unit.h
+/home/rifto/bee/test/unit/unit.h
+salad/guava.h
+/home/rifto/bee/test/unit/salad/guava.h
+
+/home/rifto/bee/test/unit/unit.h
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+unit.h
+/home/rifto/bee/test/unit/unit.h
+
+src/lib/salad/guava.h
+stdint.h
+-
+

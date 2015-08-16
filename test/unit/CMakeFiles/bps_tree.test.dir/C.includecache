@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/third_party/qsort_arg.c
+third_party/qsort_arg.h
+-
+stdint.h
+-
+
+third_party/qsort_arg.h
+sys/types.h
+-
+

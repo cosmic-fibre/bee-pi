@@ -1,0 +1,859 @@
+The system is: Linux - 3.18.0-trunk-rpi2 - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rifto/bee/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rifto/bee/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3003231293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3003231293.dir/build.make CMakeFiles/cmTryCompileExec3003231293.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3003231293.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3003231293.dir/testCCompiler.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3003231293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3003231293.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3003231293.dir/testCCompiler.c.o  -o cmTryCompileExec3003231293 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1440920523/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1440920523.dir/build.make CMakeFiles/cmTryCompileExec1440920523.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1440920523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1440920523.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1440920523 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1440920523' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCIgFec.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec1440920523 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1440920523/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1440920523.dir/build.make CMakeFiles/cmTryCompileExec1440920523.dir/build]
+  ignore line: [make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1440920523]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1440920523.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1440920523 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1440920523' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCIgFec.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec1440920523 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCIgFec.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1440920523] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTryCompileExec1440920523.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.9;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec925742846/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec925742846.dir/build.make CMakeFiles/cmTryCompileExec925742846.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec925742846.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec925742846.dir/testCXXCompiler.cxx.o -c /home/rifto/bee/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec925742846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec925742846.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec925742846.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec925742846 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2588474847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2588474847.dir/build.make CMakeFiles/cmTryCompileExec2588474847.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2588474847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2588474847.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2588474847 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2588474847' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvngiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec2588474847 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2588474847/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2588474847.dir/build.make CMakeFiles/cmTryCompileExec2588474847.dir/build]
+  ignore line: [make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2588474847]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2588474847.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2588474847 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2588474847' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvngiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec2588474847 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTvngiK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2588474847] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTryCompileExec2588474847.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.9;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3668240506/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3668240506.dir/build.make CMakeFiles/cmTryCompileExec3668240506.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3668240506.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3668240506.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3668240506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3668240506.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3668240506.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3668240506 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1636490715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1636490715.dir/build.make CMakeFiles/cmTryCompileExec1636490715.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1636490715.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1636490715.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1636490715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1636490715.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1636490715.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1636490715 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2420643597/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2420643597.dir/build.make CMakeFiles/cmTryCompileExec2420643597.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2420643597.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2420643597.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2420643597
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2420643597.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2420643597.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2420643597 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1582879551/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1582879551.dir/build.make CMakeFiles/cmTryCompileExec1582879551.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1582879551.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1582879551.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/rifto/bee/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1582879551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1582879551.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1582879551.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1582879551 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STD_C11 succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1764348664/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1764348664.dir/build.make CMakeFiles/cmTryCompileExec1764348664.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1764348664.dir/src.c.o
+/usr/bin/cc   -DHAVE_STD_C11 -std=c11   -o CMakeFiles/cmTryCompileExec1764348664.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1764348664
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1764348664.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_STD_C11 -std=c11    CMakeFiles/cmTryCompileExec1764348664.dir/src.c.o  -o cmTryCompileExec1764348664 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_STD_GNU99 succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2910448736/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2910448736.dir/build.make CMakeFiles/cmTryCompileExec2910448736.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2910448736.dir/src.c.o
+/usr/bin/cc   -DHAVE_STD_GNU99 -std=gnu99   -o CMakeFiles/cmTryCompileExec2910448736.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2910448736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2910448736.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_STD_GNU99 -std=gnu99    CMakeFiles/cmTryCompileExec2910448736.dir/src.c.o  -o cmTryCompileExec2910448736 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_CXX11 succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec828206163/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec828206163.dir/build.make CMakeFiles/cmTryCompileExec828206163.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec828206163.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_STD_CXX11 -std=c++11   -o CMakeFiles/cmTryCompileExec828206163.dir/src.cxx.o -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec828206163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec828206163.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_STD_CXX11 -std=c++11    CMakeFiles/cmTryCompileExec828206163.dir/src.cxx.o  -o cmTryCompileExec828206163 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_GNUXX0X succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1130286083/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1130286083.dir/build.make CMakeFiles/cmTryCompileExec1130286083.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1130286083.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_STD_GNUXX0X -std=gnu++0x   -o CMakeFiles/cmTryCompileExec1130286083.dir/src.cxx.o -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1130286083
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1130286083.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_STD_GNUXX0X -std=gnu++0x    CMakeFiles/cmTryCompileExec1130286083.dir/src.cxx.o  -o cmTryCompileExec1130286083 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_OPENMP succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1691824159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1691824159.dir/build.make CMakeFiles/cmTryCompileExec1691824159.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1691824159.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_OPENMP -fopenmp -Werror   -o CMakeFiles/cmTryCompileExec1691824159.dir/src.cxx.o -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1691824159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1691824159.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_OPENMP -fopenmp -Werror    CMakeFiles/cmTryCompileExec1691824159.dir/src.cxx.o  -o cmTryCompileExec1691824159 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) {
+#pragma omp parallel
+    {
+    }
+    return 0;
+}
+Performing C SOURCE FILE Test CC_HAS_WNO_UNUSED_CONST_VARIABLE succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1961875553/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1961875553.dir/build.make CMakeFiles/cmTryCompileExec1961875553.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1961875553.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_CONST_VARIABLE   -Wno-unused-const-variable -o CMakeFiles/cmTryCompileExec1961875553.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1961875553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1961875553.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_CONST_VARIABLE    CMakeFiles/cmTryCompileExec1961875553.dir/src.c.o  -o cmTryCompileExec1961875553 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_WNO_UNUSED_RESULT succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1820084654/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1820084654.dir/build.make CMakeFiles/cmTryCompileExec1820084654.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1820084654.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_RESULT   -Wno-unused-result -o CMakeFiles/cmTryCompileExec1820084654.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1820084654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1820084654.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_RESULT    CMakeFiles/cmTryCompileExec1820084654.dir/src.c.o  -o cmTryCompileExec1820084654 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_WNO_UNUSED_VALUE succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3649510554/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3649510554.dir/build.make CMakeFiles/cmTryCompileExec3649510554.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3649510554.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_VALUE   -Wno-unused-value -o CMakeFiles/cmTryCompileExec3649510554.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3649510554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3649510554.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNUSED_VALUE    CMakeFiles/cmTryCompileExec3649510554.dir/src.c.o  -o cmTryCompileExec3649510554 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_FNO_STRICT_ALIASING succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2474999383/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2474999383.dir/build.make CMakeFiles/cmTryCompileExec2474999383.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2474999383.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_FNO_STRICT_ALIASING   -fno-strict-aliasing -o CMakeFiles/cmTryCompileExec2474999383.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2474999383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2474999383.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_FNO_STRICT_ALIASING    CMakeFiles/cmTryCompileExec2474999383.dir/src.c.o  -o cmTryCompileExec2474999383 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_WNO_COMMENT succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1524405094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1524405094.dir/build.make CMakeFiles/cmTryCompileExec1524405094.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1524405094.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_COMMENT   -Wno-comment -o CMakeFiles/cmTryCompileExec1524405094.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1524405094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1524405094.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_COMMENT    CMakeFiles/cmTryCompileExec1524405094.dir/src.c.o  -o cmTryCompileExec1524405094 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_WNO_PARENTHESES succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2380327507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2380327507.dir/build.make CMakeFiles/cmTryCompileExec2380327507.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2380327507.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_PARENTHESES   -Wno-parentheses -o CMakeFiles/cmTryCompileExec2380327507.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2380327507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2380327507.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_PARENTHESES    CMakeFiles/cmTryCompileExec2380327507.dir/src.c.o  -o cmTryCompileExec2380327507 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CC_HAS_WNO_UNDEFINED_INLINE succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2863825163/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2863825163.dir/build.make CMakeFiles/cmTryCompileExec2863825163.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2863825163.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNDEFINED_INLINE   -Wno-undefined-inline -o CMakeFiles/cmTryCompileExec2863825163.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2863825163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2863825163.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCC_HAS_WNO_UNDEFINED_INLINE    CMakeFiles/cmTryCompileExec2863825163.dir/src.c.o  -o cmTryCompileExec2863825163 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function __gcov_flush exists in the gcov passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec444349237/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec444349237.dir/build.make CMakeFiles/cmTryCompileExec444349237.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec444349237.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=__gcov_flush   -o CMakeFiles/cmTryCompileExec444349237.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec444349237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec444349237.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=__gcov_flush    CMakeFiles/cmTryCompileExec444349237.dir/CheckFunctionExists.c.o  -o cmTryCompileExec444349237 -rdynamic -lgcov 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the MAP_ANON exist passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4008200927/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4008200927.dir/build.make CMakeFiles/cmTryCompileExec4008200927.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4008200927.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec4008200927.dir/CheckSymbolExists.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4008200927
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4008200927.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec4008200927.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4008200927 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+File /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_ANON
+  return ((int*)(&MAP_ANON))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MAP_ANONYMOUS exist passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec499059282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec499059282.dir/build.make CMakeFiles/cmTryCompileExec499059282.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec499059282.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec499059282.dir/CheckSymbolExists.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec499059282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec499059282.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec499059282.dir/CheckSymbolExists.c.o  -o cmTryCompileExec499059282 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+File /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MAP_ANONYMOUS
+  return ((int*)(&MAP_ANONYMOUS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4292234533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4292234533.dir/build.make CMakeFiles/cmTryCompileExec4292234533.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4292234533.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec4292234533.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4292234533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4292234533.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec4292234533.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4292234533 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec543458072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec543458072.dir/build.make CMakeFiles/cmTryCompileExec543458072.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec543458072.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec543458072.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec543458072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec543458072.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec543458072.dir/CheckIncludeFile.c.o  -o cmTryCompileExec543458072 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3581773878/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3581773878.dir/build.make CMakeFiles/cmTryCompileExec3581773878.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3581773878.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec3581773878.dir/CheckIncludeFile.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3581773878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3581773878.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec3581773878.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3581773878 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the O_DSYNC exist passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec227194037/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec227194037.dir/build.make CMakeFiles/cmTryCompileExec227194037.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec227194037.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec227194037.dir/CheckSymbolExists.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec227194037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec227194037.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec227194037.dir/CheckSymbolExists.c.o  -o cmTryCompileExec227194037 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+File /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_DSYNC
+  return ((int*)(&O_DSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3264068572/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3264068572.dir/build.make CMakeFiles/cmTryCompileExec3264068572.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3264068572.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec3264068572.dir/CheckSymbolExists.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3264068572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3264068572.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec3264068572.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3264068572 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+File /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sched_yield exist passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2935217353/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2935217353.dir/build.make CMakeFiles/cmTryCompileExec2935217353.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2935217353.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp    -o CMakeFiles/cmTryCompileExec2935217353.dir/CheckSymbolExists.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2935217353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2935217353.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp     CMakeFiles/cmTryCompileExec2935217353.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2935217353 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+File /home/rifto/bee/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_yield
+  return ((int*)(&sched_yield))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function memmem exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2166296715/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166296715.dir/build.make CMakeFiles/cmTryCompileExec2166296715.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166296715.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=memmem   -o CMakeFiles/cmTryCompileExec2166296715.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2166296715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166296715.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=memmem    CMakeFiles/cmTryCompileExec2166296715.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2166296715 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memrchr exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec712788533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec712788533.dir/build.make CMakeFiles/cmTryCompileExec712788533.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec712788533.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=memrchr   -o CMakeFiles/cmTryCompileExec712788533.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec712788533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec712788533.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=memrchr    CMakeFiles/cmTryCompileExec712788533.dir/CheckFunctionExists.c.o  -o cmTryCompileExec712788533 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2683505114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2683505114.dir/build.make CMakeFiles/cmTryCompileExec2683505114.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2683505114.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=sendfile   -o CMakeFiles/cmTryCompileExec2683505114.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2683505114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2683505114.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=sendfile    CMakeFiles/cmTryCompileExec2683505114.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2683505114 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the function open_memstream exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2978896497/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2978896497.dir/build.make CMakeFiles/cmTryCompileExec2978896497.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2978896497.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=open_memstream   -o CMakeFiles/cmTryCompileExec2978896497.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2978896497
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2978896497.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=open_memstream    CMakeFiles/cmTryCompileExec2978896497.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2978896497 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fmemopen exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3836797999/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3836797999.dir/build.make CMakeFiles/cmTryCompileExec3836797999.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3836797999.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=fmemopen   -o CMakeFiles/cmTryCompileExec3836797999.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3836797999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3836797999.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=fmemopen    CMakeFiles/cmTryCompileExec3836797999.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3836797999 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fopencookie exists passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3140209550/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3140209550.dir/build.make CMakeFiles/cmTryCompileExec3140209550.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3140209550.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=fopencookie   -o CMakeFiles/cmTryCompileExec3140209550.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3140209550
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140209550.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=fopencookie    CMakeFiles/cmTryCompileExec3140209550.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3140209550 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM succeded with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3982421410/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3982421410.dir/build.make CMakeFiles/cmTryCompileExec3982421410.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3982421410.dir/src.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DHAVE_STRUCT_STAT_ST_MTIM   -o CMakeFiles/cmTryCompileExec3982421410.dir/src.c.o   -c /home/rifto/bee/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3982421410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3982421410.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DHAVE_STRUCT_STAT_ST_MTIM    CMakeFiles/cmTryCompileExec3982421410.dir/src.c.o  -o cmTryCompileExec3982421410 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   struct stat* tmp;
+   tmp->st_mtim;
+   return 0;
+}
+
+Determining if the function __libc_stack_end exists in the  passed with the following output:
+Change Dir: /home/rifto/bee/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1750898355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1750898355.dir/build.make CMakeFiles/cmTryCompileExec1750898355.dir/build
+make[1]: Entering directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/rifto/bee/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1750898355.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=__libc_stack_end   -o CMakeFiles/cmTryCompileExec1750898355.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1750898355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1750898355.dir/link.txt --verbose=1
+/usr/bin/cc   -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -DCHECK_FUNCTION_EXISTS=__libc_stack_end    CMakeFiles/cmTryCompileExec1750898355.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1750898355 -rdynamic 
+make[1]: Leaving directory '/home/rifto/bee/CMakeFiles/CMakeTmp'
+
+

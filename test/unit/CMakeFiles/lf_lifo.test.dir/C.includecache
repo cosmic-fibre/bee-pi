@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/test/unit/lf_lifo.c
+small/lf_lifo.h
+/home/rifto/bee/test/unit/small/lf_lifo.h
+unit.h
+/home/rifto/bee/test/unit/unit.h
+sys/mman.h
+-
+
+/home/rifto/bee/test/unit/unit.h
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+unit.h
+/home/rifto/bee/test/unit/unit.h
+
+src/lib/small/lf_lifo.h
+assert.h
+-
+stdint.h
+-
+stdbool.h
+-
+stdlib.h
+-
+

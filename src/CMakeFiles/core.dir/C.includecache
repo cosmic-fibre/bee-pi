@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/src/assoc.c
+assoc.h
+-
+
+src/assoc.h
+stdint.h
+-
+salad/mhash.h
+src/salad/mhash.h
+
+src/lib/salad/mhash.h
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+string.h
+-
+

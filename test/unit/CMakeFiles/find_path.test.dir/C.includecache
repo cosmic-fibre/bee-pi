@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/src/find_path.c
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+stdint.h
+-
+stdbool.h
+-
+unistd.h
+-
+mach-o/dyld.h
+-
+sys/sysctl.h
+-
+
+/home/rifto/bee/test/unit/find_path.c
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unit.h
+/home/rifto/bee/test/unit/unit.h
+
+/home/rifto/bee/test/unit/unit.h
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+unit.h
+/home/rifto/bee/test/unit/unit.h
+

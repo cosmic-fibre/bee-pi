@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/src/lib/msgpuck/msgpuck.c
+msgpuck.h
+/home/rifto/bee/src/lib/msgpuck/msgpuck.h
+
+/home/rifto/bee/src/lib/msgpuck/msgpuck.h
+stdlib.h
+-
+stdint.h
+-
+stddef.h
+-
+stdbool.h
+-
+string.h
+-
+assert.h
+-
+

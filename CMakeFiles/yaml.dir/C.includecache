@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/third_party/lua-yaml/b64.c
+lua.h
+-
+lauxlib.h
+-
+b64.h
+/home/rifto/bee/third_party/lua-yaml/b64.h
+
+/home/rifto/bee/third_party/lua-yaml/b64.h
+lua.h
+-
+
+third_party/luajit/src/lauxlib.h
+stddef.h
+-
+stdio.h
+-
+lua.h
+third_party/luajit/src/lua.h
+
+third_party/luajit/src/lua.h
+stdarg.h
+-
+stddef.h
+-
+luaconf.h
+third_party/luajit/src/luaconf.h
+
+third_party/luajit/src/luaconf.h
+limits.h
+-
+stddef.h
+-
+assert.h
+-
+

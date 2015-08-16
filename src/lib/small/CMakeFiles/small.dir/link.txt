@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsmall.a  CMakeFiles/small.dir/slab_cache.c.o CMakeFiles/small.dir/region.c.o CMakeFiles/small.dir/mempool.c.o CMakeFiles/small.dir/slab_arena.c.o CMakeFiles/small.dir/small.c.o CMakeFiles/small.dir/matras.c.o
+/usr/bin/ranlib libsmall.a

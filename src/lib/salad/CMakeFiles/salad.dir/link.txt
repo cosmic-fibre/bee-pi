@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsalad.a  CMakeFiles/salad.dir/rope.c.o CMakeFiles/salad.dir/rlist.c.o CMakeFiles/salad.dir/rtree.c.o CMakeFiles/salad.dir/guava.c.o
+/usr/bin/ranlib libsalad.a

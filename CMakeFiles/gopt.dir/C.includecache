@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rifto/bee/third_party/gopt/gopt.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+gopt.h
+/home/rifto/bee/third_party/gopt/gopt.h
+sysexits.h
+-
+
+/home/rifto/bee/third_party/gopt/gopt.h
+

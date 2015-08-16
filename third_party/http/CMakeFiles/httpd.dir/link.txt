@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -fno-omit-frame-pointer -fno-stack-protector -fexceptions -funwind-tables -fopenmp -g -ggdb -O0   -shared -Wl,-soname,lib.so -o lib.so CMakeFiles/httpd.dir/lib.c.o 
