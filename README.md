@@ -1,5 +1,4 @@
-
-http://foura.io
+This is my first attempt to port bee from http://foura.io to arm based, so expect many bugs
 
 Bee is an backend platform as well as REST based enterprise solution with Lua application server.
 
@@ -16,13 +15,6 @@ stateful Web applications.
 Bee is written in C and C++.
 To build, you will need GCC or Apple CLang compiler.
 
-CMake is used for configuration management.
-3 standard CMake build types are supported:
- * Debug -- used by project maintainers
- * RelWithDebugInfo -- the most common release configuration,
- also provides debugging capabilities
- * Release -- use only if the highest performance is required
-
 The build depends on the following external libraries:
 
 - libreadline and libreadline-dev
@@ -30,17 +22,8 @@ The build depends on the following external libraries:
 
 Please follow these steps to compile Bee:
 
-
-    bee $ cmake .
-    bee $ sudo make install
-
-To use a different release type, say, RelWithDebugInfo, use:
-
-    bee $ cmake . -DCMAKE_BUILD_TYPE=RelWithDebugInfo
-
-Additional build options can be set similarly:
-
-    bee $ cmake . -DCMAKE_BUILD_TYPE=RelWithDebugInfo -DENABLE_DOC=true # builds the docs
+    bee $ cmake . -DENABLE_BACKTRACE=Off
+    bee $ make install
 
 'make' creates 'bee' executable in directory src/.
 
@@ -52,9 +35,4 @@ To start the server, try:
     bee $ ./src/bee
 
 This will start Bee in interactive mode.
-
-
-
-Thank you for your interest in Bee!
-# bee-pi
 # bee-pi
